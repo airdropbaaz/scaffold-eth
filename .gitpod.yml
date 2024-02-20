@@ -13,7 +13,7 @@ tasks:
     command: yarn deploy
     openMode: split-right
 ports:
-  - port: 3000
+  - port: 400
     onOpen: open-preview
   - port: 8545
     onOpen: ignore
